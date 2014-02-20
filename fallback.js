@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var withinDocument = require('within-document');
+var withinDocument = require('component-within-document');
 
 /**
  * Expose `removed`.

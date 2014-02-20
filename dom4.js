@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var withinDoc = require('within-document')
-  , Observer = require('mutation-observer');
+var withinDoc = require('component-within-document')
+  , Observer = require('component-mutation-observer');
 
 /**
  * Expose `removed`.

@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var Observer = require('mutation-observer');
+var Observer = require('component-mutation-observer');
 
 /**
  * Exports the `MutationObserver` based approach, the

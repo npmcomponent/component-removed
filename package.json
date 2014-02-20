@@ -1,26 +1,16 @@
 {
-  "name": "removed-component",
-  "repo": "component/removed",
+  "name": "component-removed",
   "description": "invoke a callback when a DOM element is removed",
   "version": "0.0.3",
   "keywords": [
     "dom",
-    "event"
+    "event",
+    "mutation",
+    "removal"
   ],
   "dependencies": {
-    "within-document": "*",
-    "mutation-observer": "*"
+    "component-within-document": "git://github.com/npmcomponent/component-within-document.git",
+    "component-mutation-observer": "git://github.com/npmcomponent/component-mutation-observer.git"
   },
-  "development": {},
-  "component": {
-    "scripts": {
-      "removed/index.js": "index.js",
-      "removed/fallback.js": "fallback.js",
-      "removed/dom4.js": "dom4.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/removed.git"
-  }
+  "license": "MIT"
 }
